@@ -58,12 +58,7 @@ type InfoItemProps = {
 export const InfoItem = ({ title, content }: InfoItemProps) => {
   const limit = 180;
   return (
-    <div
-      className="text-white sm:space-y-4"
-      style={{
-        width: `${limit}ch`,
-      }}
-    >
+    <div className="w-1/2 text-white sm:space-y-4">
       <p className="font-bebas">{title}</p>
       <ExpandableText text={content} limit={limit} />
     </div>
