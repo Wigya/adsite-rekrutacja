@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { faqSection } from "../utils/constants";
-import clsx from "clsx";
 
 type ExpandButton = {
   isExpanded: boolean;
@@ -59,7 +58,12 @@ type InfoItemProps = {
 export const InfoItem = ({ title, content }: InfoItemProps) => {
   const limit = 180;
   return (
-    <div className={clsx(`w-[${limit}ch] text-white sm:space-y-4`)}>
+    <div
+      className="text-white sm:space-y-4"
+      style={{
+        width: `${limit}ch`,
+      }}
+    >
       <p className="font-bebas">{title}</p>
       <ExpandableText text={content} limit={limit} />
     </div>
