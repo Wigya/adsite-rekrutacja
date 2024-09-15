@@ -20,8 +20,8 @@ export const gallerySection = {
     topText: "Prezentacja firmy",
     heading: "ZOBACZ NASZĄ GALERIĘ ZDJĘĆ",
     sliders: {
-        "Samochody osobowe": ["../../public/car1.png", "../../public/car2.png", "../../public/car3.png", "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/rolls_royce_phantom_top_10.jpg?itok=XjL9f1tx"],
-        "Samochody dostawcze": ["../../public/truck1.png", "../../public/truck2.png", "https://bodnar-truck.pl/wp-content/uploads/2019/09/01.jpg"]
+        "Samochody osobowe": ["/car1.png", "/car2.png", "/car3.png", "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/rolls_royce_phantom_top_10.jpg?itok=XjL9f1tx"],
+        "Samochody dostawcze": ["/truck1.png", "/truck2.png", "https://bodnar-truck.pl/wp-content/uploads/2019/09/01.jpg"]
     }
 }
 
