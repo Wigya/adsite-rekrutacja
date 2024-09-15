@@ -15,7 +15,7 @@ export const ExpandButton = ({ isExpanded, ...props }: ExpandButton) => {
     >
       <span>Rozwiń</span>
       <img
-        src="/arrow-down-icon.svg"
+        src="/adsite-rekrutacja/arrow-down-icon.svg"
         style={{
           transform: isExpanded ? "rotate(180deg)" : "",
         }}
